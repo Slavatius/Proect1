@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+/* Стартовый навигационный блок________________________________________________________________________________________*/
+
+hr { /*Редактируем горизонтальную линию (учтите, не во всех браузерах сработает)*/
+    margin-top: 500px; /*Обнуляем все внешние отступы*/
+    /*padding: 0; !*Обнуляем все внутренние отступы*!*/
+    color: rgba(244, 33, 128, 0.15); /*И задаём цвет*/
+}
+.container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.baground_startblock {
+
+    position: relative;
+
+}
+
+.container {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 2;
+
+}
+.container{
+
+}
