@@ -12,15 +12,9 @@ html, body {
 }
 
 header{
-    width: 1920px;
-    height: 900px;
-
-}
-
-.navigation_block{
     display: flex;
     border-bottom: 2.5px solid rgba(161, 161, 161, 0.6);
-    /*opacity: 0.5;*/
+    /*opacity: 0.8;*/
     justify-content: right;
     position: relative;
     bottom: 825px;
@@ -28,7 +22,7 @@ header{
 
 nav{
     margin-top: -40px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     margin-right: 370px;
 }
 
