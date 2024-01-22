@@ -1,11 +1,11 @@
 @font-face { /*Аннотация для подключения собственных шрифтов*/
     /*font-family: "Poppins Regular";*/
 
-    font-family: "Poppins"; /*Название шрифта, которое можно будет использовать потом в дальнейшем*/
+    font-family: "Montserrat"; /*Название шрифта, которое можно будет использовать потом в дальнейшем*/
 
     font-weight: 300; /*Добавление к шрифту определённой степени жирности*/
 
-url("../fonts/Poppins-Light.ttf") format("ttf"); /*Ссылка на файл со шрифтом. Если первые две настройки совпадут
+url("../fonts/IBMPlexSerif-Light.ttf") format("ttf"); /*Ссылка на файл со шрифтом. Если первые две настройки совпадут
     при редактировании элемента, подгрузится шрифт из этого файла, в результате чего шрифт в элементе поменяется.
     font-weight используется в том случае, если для одного шрифта у вас есть несколько вариаций жирности, чтобы хоть
     как-то их отличить друг от друга и чтобы лишний раз не создавать новый font-family для этого (а ещё это удобно, когда,
@@ -18,21 +18,21 @@ url("../fonts/Poppins-Light.ttf") format("ttf"); /*Ссылка на файл с
 
 @font-face {
     /*font-family: "Poppins Regular";*/
-    font-family: "Poppins";
+    font-family: "Montserrat";
     font-weight: 400;
-url("../fonts/Poppins-Regular.ttf") format("ttf");
+url("../fonts/IBMPlexSerif-Regular.ttf") format("ttf");
 }
 
 @font-face {
     /*font-family: "Poppins SemiBold";*/
-    font-family: "Poppins";
+    font-family: "Montserrat";
     font-weight: 600;
-url("../fonts/Poppins-SemiBold.ttf") format("ttf");
+url("../fonts/IBMPlexSerif-SemiBold.ttf") format("ttf");
 }
 
 @font-face {
     /*font-family: "Poppins SemiBold";*/
-    font-family: "Poppins";
+    font-family: "Montserrat";
     font-weight: 800;
-url("../fonts/Poppins-ExtraBold.ttf") format("ttf");
+url("../fonts/IBMPlexSerif-SemiBoldItalic.ttf") format("ttf");
 }
