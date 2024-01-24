@@ -11,25 +11,21 @@ html, body {
     width: 1920px;
 }
 
-header{
+nav{
     display: flex;
-    border-bottom: 2.5px solid rgba(161, 161, 161, 0.6);
-    /*opacity: 0.8;*/
     justify-content: right;
     position: relative;
     bottom: 825px;
-}
-
-nav{
-    margin-top: -40px;
-    margin-bottom: 35px;
-    margin-right: 370px;
+    right: 300px;
+    margin-top: -45px;
+    margin-bottom: 80px;
+    margin-right: 55px;
 }
 
 nav a{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: Montserrat, serif; /* закачать шрифт с инета в папку*/
+    font-family: Montserrat, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -38,6 +34,112 @@ nav a{
     padding-right: 30px;
 }
 
+hr{
+    width: 107px;
+    height: 2px;
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.line{
+    width: 1920px;
+    height: 1px;
+    opacity: 0.2;
+    background: #A1A1A1;
+    position: relative;
+    bottom: 860px;
+}
+
+.line2{
+    width: 107px;
+    height: 0;
+    background: #FFF;
+    position: relative;
+    bottom: 904px;
+    margin-left: 955px;
+}
+
+.opening_text{
+    position: relative;
+    bottom: 715px;
+    text-align: center;
+}
+.opening_text h6{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.opening_text h1{
+    color: #FFF;
+    font-family: Montserrat, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.09%; /* 64.363px */
+    margin-top: -15px;
+    margin-bottom: 45px;
+}
+.opening_text a{
+    border: 1px solid #4985FF;
+    border-radius: 30px;
+    background: var(--Accent, #4985FF);
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    flex-shrink: 0;
+    padding: 13px 40px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.opening_block h2{
+    text-align: center;
+    margin-top: -280px;
+    color: var(--dark, #323232);
+    font-family: Montserrat, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 146.28%;
+}
+.opening_block p{
+    color: var(--grey, #999);
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
+}
+.sait_block p{
+    text-align: left;
+}
+
+.services_block{
+    text-align: center;
+}
+.services_block a {
+    border-radius: 30px;
+    background: var(--Accent, #4985FF);
+    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 13px 40px;
+    text-decoration: none;
 
 
 
+}
