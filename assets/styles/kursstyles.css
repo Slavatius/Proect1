@@ -119,20 +119,109 @@ hr{
     font-weight: 400;
     line-height: 158.47%;
 }
-.sait_block p{
-    text-align: left;
+
+
+.sait_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+
 }
+
+
+.sait_organaizer{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+
+
+.graphic_arts{
+    position: relative;
+
+}
+
+
+.graphic_arts1{
+    position: relative;
+    bottom: 0px;
+    flex-shrink: 0;
+    margin-left: -63.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.graphic_arts2{
+    position: relative;
+    bottom: 0;
+    flex-shrink: 0;
+    margin-left: -100px;
+    margin-bottom: 20px;
+}
+
+.graphic_arts3{
+    position: absolute;
+    bottom: 2px;
+    left: 70px;
+    flex-shrink: 0;
+    margin-left: -100px;
+    margin-bottom: 45px;
+}
+
+.sait_arts{
+
+
+}
+
+
+.sait_arts h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+.sait_arts p{
+    color: var(--grey, #999);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%; /* 22.186px */
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .services_block{
     text-align: center;
+    margin-top: 100px;
+
 }
 .services_block a {
+    border: 1px solid #4985FF;
     border-radius: 30px;
     background: var(--Accent, #4985FF);
     box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
     color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
