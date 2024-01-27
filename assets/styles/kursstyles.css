@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", serif;
+    font-family: "Montserrat", sans-serif;
 }
 /* Стартовый навигационный блок________________________________________________________________________________________*/
 
@@ -25,7 +25,7 @@ nav{
 nav a{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -68,7 +68,7 @@ hr{
 .opening_text h6{
     color: #FFF;
     text-align: center;
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -77,24 +77,24 @@ hr{
 
 .opening_text h1{
     color: #FFF;
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
-    line-height: 134.09%; /* 64.363px */
+    line-height: 134.09%;
     margin-top: -15px;
     margin-bottom: 45px;
 }
 .opening_text a{
     border: 1px solid #4985FF;
     border-radius: 30px;
-    background: var(--Accent, #4985FF);
-    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    background: #4985FF;
+    box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
     flex-shrink: 0;
     padding: 13px 40px;
     color: #FFF;
     text-decoration: none;
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -106,17 +106,17 @@ hr{
 .opening_block h2{
     text-align: center;
     margin-top: -280px;
-    color: var(--dark, #323232);
-    font-family: Montserrat, serif;
+    color: #323232;
+    font-family: Montserrat, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 146.28%;
 }
 .opening_block p{
-    color: var(--grey, #999);
+    color: #999;
     text-align: center;
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -130,11 +130,10 @@ hr{
     margin-top: 80px;
 }
 
-
 .sait_organaizer{
     display: flex;
-    margin-left: 75px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 70px;
     margin-top: -20px;
 }
 
@@ -148,7 +147,7 @@ hr{
 
 .graphic_arts1{
     position: relative;
-    bottom: 0px;
+    bottom: 0;
     flex-shrink: 0;
     margin-left: -63.5px;
     margin-top: 10px;
@@ -179,7 +178,7 @@ hr{
 
 .sait_arts h3{
     color: #000;
-    font-family: Montserrat;
+    font-family: Montserrat sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -187,8 +186,8 @@ hr{
 }
 
 .sait_arts p{
-    color: var(--grey, #999);
-    font-family: Montserrat;
+    color: #999;
+    font-family: Montserrat sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -199,15 +198,16 @@ hr{
 .services_block{
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 100px;
 
 }
 .services_block a {
     border: 1px solid #4985FF;
     border-radius: 30px;
-    background: var(--Accent, #4985FF);
-    box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+    background: #4985FF;
+    box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
     color: #FFF;
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -215,5 +215,87 @@ hr{
     padding: 13px 40px;
     text-decoration: none;
 }
-
 /*-- 3 блок - информация о компании --*/
+
+.baground_infoblock{
+    background: #F6F6F8;
+}
+.info_block{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+}
+.text_block{
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.restangle{
+    margin-right: 280px;
+}
+.line_info_block{
+    width: 1110px;
+    height: 1px;
+    background: #E0E0E0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.2;
+}
+
+.text_blockh h2{
+    color: #323232;
+    font-family: Montserrat sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 146.28%;
+}
+.text_block p{
+    color: #999;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
+}
+.text_block a{
+    color: #4985FF;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+.our_projects_block{
+    display: flex;
+    justify-content:center;
+
+}
+.info_block_projects{
+    margin-right: 100px;
+}
+
+.spisok_info_block{
+    display: flex;
+    margin-bottom: -35px;
+
+}
+.spisok_info_block p{
+    color: #000;
+    font-family: Montserrat sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.28%;
+    margin-left: 15px;
+}
+.our_projects{
+    color: #999;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
+}
