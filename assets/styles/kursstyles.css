@@ -402,8 +402,6 @@ hr{
 }
 
 .our_projects h2{
-    display: flex;
-    justify-content: center;
     color: #000;
     text-align: center;
     font-family: Montserrat sans-serif;
@@ -411,7 +409,7 @@ hr{
     font-style: normal;
     font-weight: 700;
     line-height: 146.28%;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 .our_projects p{
     display: flex;
@@ -423,7 +421,7 @@ hr{
     font-style: normal;
     font-weight: 400;
     line-height: 158.47%;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .our_projects a{
@@ -441,7 +439,7 @@ hr{
     box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
     flex-shrink: 0;
     padding: 13px 40px;
-    margin-left: 860px;
+    margin-left: 880px;
     margin-bottom: 100px;
 }
 
@@ -460,4 +458,88 @@ hr{
 
 .backround_video_about_work{
 
+}
+.video_about_work{
+    text-align: center;
+    position: relative;
+    margin-top: -550px;
+}
+
+.video_about_work h2{
+    color: #FFFFFF;
+    font-family: Montserrat sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 146.28%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.video_about_work p{
+    color: #FFFFFF;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
+    margin-bottom: 50px;
+}
+.newsletter{
+    text-align: center;
+}
+.video_button{
+    border-radius: 200px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 300px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -280px;
+    margin-bottom: 250px;
+    position: relative;
+
+}
+
+.video_button p{
+    margin-left: 15px;
+    color: #FFF;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158.47%;
+ }
+
+
+.newsletter hr{
+    width: 1110px;
+    height: 1px;
+    color: #E0E0E0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.2;
+
+}
+.newsletter h3{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.newsletter p{
+    color: #999;
+    text-align: center;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.47%;
 }
