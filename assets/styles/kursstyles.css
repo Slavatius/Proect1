@@ -589,15 +589,18 @@ hr{
 /*7 блок*/
 .background_placeholder {
     background: #F6F6F8;
-
-
 }
+
 .placeholder{
     display: flex;
     justify-content: center;
-
+    align-items: center;
 
 }
+.placeholder_block1{
+    margin-top: 13px;
+}
+
 .placeholder_block1 h3{
     color: #000;
     text-align: left;
@@ -607,7 +610,7 @@ hr{
     font-weight: 600;
     line-height: normal;
     letter-spacing: normal;
-    margin-bottom: 25px;
+
 }
 
 .placeholder_block1 a{
@@ -630,11 +633,14 @@ hr{
     line-height: normal;
     letter-spacing: normal;
     color: #999;
+    margin-top: 20px;
 }
 
 .geoloc{
     display: flex;
+    margin-top: -18px;
 }
+
 .geoloc p{
     margin-left: 15px;
     text-align: left;
@@ -646,6 +652,38 @@ hr{
     letter-spacing: normal;
     color: #999;
 }
+.placeholder_block2 {
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+   align-items: center;
+
+
+}
+.placeholder_block2 h3{
+    color: #000;
+    text-align: left;
+    font-family: Montserratn  sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.placeholder_block2 a{
+    text-decoration: none;
+    text-align: left;
+    font-family: Montserratn  sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999;
+
+}
+
 .line6{
     width: 1110px;
     height: 1px;
@@ -653,6 +691,10 @@ hr{
     margin-right: auto;
     margin-left: auto;
     opacity: 0.2;
+}
+.end{
+    justify-content: center;
+    display: flex;
 }
 
 
