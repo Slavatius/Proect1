@@ -586,5 +586,73 @@ hr{
     font-weight: 500;
     line-height: normal;
 }
-
 /*7 блок*/
+.background_placeholder {
+    background: #F6F6F8;
+
+
+}
+.placeholder{
+    display: flex;
+    justify-content: center;
+
+
+}
+.placeholder_block1 h3{
+    color: #000;
+    text-align: left;
+    font-family: Montserratn  sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 25px;
+}
+
+.placeholder_block1 a{
+    text-decoration: none;
+    text-align: left;
+    font-family: Montserratn  sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999;
+}
+.placeholder_block1 p{
+    text-align: left;
+    font-family: Montserratn  sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999;
+}
+
+.geoloc{
+    display: flex;
+}
+.geoloc p{
+    margin-left: 15px;
+    text-align: left;
+    font-family: Montserratn  sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #999;
+}
+.line6{
+    width: 1110px;
+    height: 1px;
+    color: #E0E0E0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.2;
+}
+
+
