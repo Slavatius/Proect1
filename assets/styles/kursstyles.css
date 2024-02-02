@@ -23,7 +23,7 @@ nav{
 nav a{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -46,17 +46,24 @@ hr{
     opacity: 0.2;
     background: #A1A1A1;
     position: relative;
-    bottom: 860px;
+    bottom: 907px;
+
 }
 
 .line2{
-    width: 107px;
-    height: 0;
-    background: #FFF;
-    position: relative;
-    bottom: 904px;
-    margin-left: 955px;
+    border-bottom: 1px solid white;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 20px;
+    padding-bottom: 38px;
+
+
 }
+.line2 a{
+   margin-left: 10px;
+}
+
 
 .opening_text{
     position: relative;
@@ -67,7 +74,7 @@ hr{
 .opening_text h6{
     color: #FFF;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -76,7 +83,7 @@ hr{
 
 .opening_text h1{
     color: #FFF;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -94,7 +101,7 @@ hr{
     padding: 13px 40px;
     color: #FFF;
     text-decoration: none;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -105,7 +112,7 @@ hr{
     text-align: center;
     margin-top: -280px;
     color: #323232;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -114,7 +121,7 @@ hr{
 .opening_block p{
     color: #999;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +179,7 @@ hr{
 
 .sait_arts h3{
     color: #000;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -181,7 +188,7 @@ hr{
 
 .sait_arts p{
     color: #999;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -200,7 +207,7 @@ hr{
     background: #4985FF;
     box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
     color: #FFF;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -235,7 +242,7 @@ hr{
 
 .text_blockh h2{
     color: #323232;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -244,7 +251,7 @@ hr{
 
 .text_block p{
     color: #999;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -253,7 +260,7 @@ hr{
 
 .text_block a{
     color: #4985FF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -280,7 +287,7 @@ hr{
 
 .spisok_info_block p{
     color: #000;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -290,7 +297,7 @@ hr{
 
 .our_projects{
     color: #999;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -299,7 +306,8 @@ hr{
 
 /*-- 4 блок --*/
 .background_work{
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    background-image: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+    background-color: #C4C4C4;
     width: 1920px;
     height: 490px;
     flex-shrink: 0;
@@ -321,7 +329,7 @@ hr{
 
 .services h2{
     color: #FFFFFF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -332,7 +340,7 @@ hr{
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -358,7 +366,7 @@ hr{
 
 .one span {
     color:#4985FF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -366,7 +374,7 @@ hr{
 }
 .one h3{
     color: #000;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -375,7 +383,7 @@ hr{
 }
 .card_services p{
     color: #999;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -384,7 +392,7 @@ hr{
 
 .card_services a{
     color: #4985FF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -407,7 +415,7 @@ hr{
 .our_projects h2{
     color: #000;
     text-align: center;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -420,7 +428,7 @@ hr{
     justify-content: center;
     color: #999;
     text-align: center;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -432,7 +440,7 @@ hr{
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -468,7 +476,7 @@ hr{
 
 .video_about_work h2{
     color: #FFFFFF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -479,7 +487,7 @@ hr{
 
 .video_about_work p{
     color: #FFFFFF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -508,7 +516,7 @@ hr{
 .video_button p{
     margin-left: 15px;
     color: #FFF;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -531,7 +539,7 @@ hr{
 .newsletter h3{
     color: #000;
     text-align: center;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -541,14 +549,11 @@ hr{
 .newsletter p{
     color: #999;
     text-align: center;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 158.47%;
-}
-.button_mail{
-    margin-bottom: 30px;
 }
 
 #email{
@@ -563,13 +568,14 @@ hr{
     height: 41px;
     flex-shrink: 0;
     color:  #999;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 158.47%;
     padding-left: 50px;
     margin-right: -3px;
+    margin-bottom: 30px;
 }
 
 #email_button{
@@ -582,7 +588,7 @@ hr{
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
-    font-family: Montserrat sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -606,7 +612,7 @@ hr{
 .placeholder_block1 h3{
     color: #000;
     text-align: left;
-    font-family: Montserratn  sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -617,7 +623,7 @@ hr{
 .placeholder_block1 a{
     text-decoration: none;
     text-align: left;
-    font-family: Montserratn  sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -628,7 +634,7 @@ hr{
 
 .placeholder_block1 p{
     text-align: left;
-    font-family: Montserratn  sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -640,13 +646,13 @@ hr{
 
 .geoloc{
     display: flex;
-    margin-top: -18px;
+    margin-top: -25px;
 }
 
 .geoloc p{
     margin-left: 15px;
     text-align: left;
-    font-family: Montserratn  sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -656,16 +662,16 @@ hr{
 }
 
 .placeholder_block2 {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
-   align-items: center;
+
 }
 
 .placeholder_block2 h3{
     color: #000;
     text-align: left;
-    font-family: Montserratn  sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -673,16 +679,21 @@ hr{
     letter-spacing: normal;
 }
 
-.placeholder_block2 a{
+.placeholder_block3 a{
     text-decoration: none;
     text-align: left;
-    font-family: Montserratn  sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: normal;
     color: #999;
+    margin-bottom: 15px;
+}
+.placeholder_block3{
+        display: flex;
+        flex-direction: column;
 }
 
 .line6{
@@ -697,6 +708,8 @@ hr{
 .end{
     justify-content: center;
     display: flex;
+    padding-bottom: 30px;
+    color: #999;
 }
 
 
