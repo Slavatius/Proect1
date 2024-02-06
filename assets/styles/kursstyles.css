@@ -7,6 +7,7 @@ html, body {
 .container {
     margin: 0 auto;
     width: 1920px;
+
 }
 
 nav{
@@ -292,6 +293,7 @@ hr{
     font-style: normal;
     font-weight: 400;
     line-height: 146.28%;
+    margin-top: 40px;
     margin-left: 15px;
 }
 
@@ -302,6 +304,7 @@ hr{
     font-style: normal;
     font-weight: 400;
     line-height: 158.47%;
+    text-decoration: none;
 }
 
 /*-- 4 блок --*/
@@ -595,9 +598,6 @@ hr{
     line-height: normal;
 }
 /*7 блок*/
-.background_placeholder {
-    background: #F6F6F8;
-}
 
 .placeholder{
     display: flex;
@@ -650,7 +650,7 @@ hr{
 }
 
 .geoloc p{
-    margin-left: 15px;
+    margin-left: 25px;
     text-align: left;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -666,17 +666,19 @@ hr{
     margin-right: 50px;
     margin-left: 50px;
 
+
 }
 
 .placeholder_block2 h3{
     color: #000;
-    text-align: left;
+    /*text-align: left;*/
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: normal;
+
 }
 
 .placeholder_block3 a{
@@ -692,8 +694,8 @@ hr{
     margin-bottom: 15px;
 }
 .placeholder_block3{
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .line6{
@@ -708,7 +710,7 @@ hr{
 .end{
     justify-content: center;
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     color: #999;
 }
 
